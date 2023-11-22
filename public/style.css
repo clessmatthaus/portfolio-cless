@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: white;
+  --thirt-color: black;
+  --foor-color: rgb(21, 21, 170);
+  --five-color: rgba(17, 110, 204, 0.544);
+  --six-color: white;
+  --sev-color: rgba(3, 16, 91, 0.544);
+  --hei-color: white;
+  --fiv-color: rgba(3, 16, 91, 0.544);
+  --nine-color: rgb(243, 200, 8);
+  --ten-color: linear-gradient(
+    rgb(85, 165, 239),
+    rgb(131, 192, 249),
+    rgb(26, 128, 223)
+  );
+  --text-color: white;
+ 
+}
+.dark-theme {
+  --primary-color: rgb(8, 1, 57);
+  --secondary-color: white;
+  --thirt-color: wheat;
+  --foor-color: rgb(21, 21, 170);
+  --five-color: rgb(1, 10, 48);
+  --six-color: white;
+  --sev-color: white;
+  --hei-color: wheat;
+  --fiv-color: wheat;
+  --nine-color: white;
+  --ten-color: rgb(11, 2, 70);
+  --text-color: black;
+ 
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: var(--primary-color);
+  color: var(--text-color);
+}
+p {
+  font-family: "Teko", sans-serif;
+}
+a {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+h2 {
+  font-family: "Asap Condensed", sans-serif;
+}
